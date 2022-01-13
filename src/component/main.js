@@ -2,7 +2,6 @@
  import DataTable from "react-data-table-component";
  import { useSelector, useDispatch } from 'react-redux';
  import { getEmployees } from '../redux/actions/employees';
- import CreateModal from './createUserModal'
  const Employees = () => {
      let showCreateModal = false;
      const [name, setName]= useState('');
